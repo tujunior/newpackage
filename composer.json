@@ -1,0 +1,23 @@
+{
+    "name": "sukanyaO/newpack",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sukanya",
+            "email": "tu.junior.x@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sukanya\\Newpack\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
